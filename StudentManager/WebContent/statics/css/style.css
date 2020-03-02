@@ -1,0 +1,51 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+#container{
+	width: 750px;
+	margin: 50px auto;
+}
+
+#container dl{
+	width: 230px;
+	height: 360px;
+	border:1px solid green;
+	float: left;
+	margin-top:10px;
+	margin-right: 15px;
+}
+
+#container dl dt{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#container dl dt img{
+	border:0px;
+	border-radius: 50px;
+	transition:all 2s;
+}
+
+#container dl:hover img{
+	transform:scale(1.2);
+}
+
+#container dl dd{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: red;
+}
+
+table{
+	width:750px;
+}
+
+table tr:nth-child(odd) {
+	background: #ccc;
+}
+
